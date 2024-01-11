@@ -30,7 +30,8 @@ Para possibilitar a equipe de front criar essa aplicação, queremos desenvolver
 
 - x Definir Entidade Planeta
 - x Adicionar Novo Planeta
-  -- Ao Adicionar Um Planeta, Verificar se é válido (via api), e salvar aparições em filmes
+- x Padrão Repository
+- Padrão Gateway - Ao Adicionar Um Planeta, Verificar se é válido (via api), e salvar aparições em filmes
 - Listar planetas
 - Buscar por nome
 - Buscar por ID
