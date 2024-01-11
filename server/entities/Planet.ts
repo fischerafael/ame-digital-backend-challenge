@@ -55,7 +55,7 @@ export class Planet {
     return this._id!;
   }
 
-  static create(name: string, climate: string, terrain: string) {
+  static create(name: string, climate: string, terrain: string): Planet {
     if (!name) throw new Error("No name provided");
     if (!climate) throw new Error("No climate provided");
     if (!terrain) throw new Error("No terrain provided");
